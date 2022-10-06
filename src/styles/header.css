@@ -1,0 +1,27 @@
+.logoPic {
+  width: 380px;
+  height: 70px;
+}
+.headerContainer {
+  /* background-color: red; */
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: white;
+  color: #302404;
+  line-height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 17px;
+}
