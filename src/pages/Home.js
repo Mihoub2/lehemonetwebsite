@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Form from "../component/Form";
 import "../styles/home.css";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
@@ -147,6 +148,7 @@ const Home = () => {
           <button className="homeButton4">ENVOYER UN E-MAIL</button>
         </div>
       </div>
+      <Form />
     </div>
   );
 };
